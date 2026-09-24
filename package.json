@@ -1,0 +1,8 @@
+{
+  "name": "koobone-comic-greasemonkey",
+  "version": "1.0.0",
+  "scripts": {
+    "check": "node --check koobone-comic.user.js && node --check test/koobone-comic.test.js",
+    "test": "node --test"
+  }
+}
